@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>News</title>
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="home2.css">
+
+
+</head>
+<body>
+     <header class="header">
+            <div class="container">
+                <div class="header_inner">
+                    
+                     
+                      <nav class="nav">
+                      <a class="nav_link"href="News.html" class="a">
+				News
+			</a>
+				<a class="nav_link" href="Message.html" class="a">Message</a>
+			
+				<a  class="nav_link" href="1.php" class="a">My profile</a>
+			
+			
+				<a  class="nav_link" href="Friends.php" class="a">Friends</a>
+                          <a class="nav_link" href="index.html">Log out</a>
+</nav>
+                </div>
+        </div>
+</head>
+<body>
+	<a href="Profile.html">
+<img src="nn.jpg" width="400px" height="400px" id="avatarn">
+</a>
+<br>
+<img id="PutImg" src="rat.jpg" width="400px" height="400px" onclick="imgsrc();">
+
+<script>
+var i=0;
+        var image=document.getElementById("PutImg");
+        var imgs=new Array('nn.jpg', 'nn.jpg', 'nn.jpg');
+        function imgsrc() {
+            i++;
+            image.src=imgs[i];
+	    if(i == 2) { i = -1; }
+        }
+
+</script>
+
+<div class="news1">
+fire
+</div>
+
+<br>
+
+
+<img id="newId" src="duman.jpg" width="400px" height="400px"onclick="changeImg()">
+	<div class="news1"> 
+Hello world  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+
+<script>
+var j=0;
+        var image1=document.getElementById("newId");
+        var arr = new Array('nn.jpeg', 'rat.jpg', 'duman.jpg');
+        function changeImg() {
+            j++;
+            image1.src=arr[j];
+	    if(j == 2) { j = -1; }
+        }
+
+</script>
+
+</body>
+</html>

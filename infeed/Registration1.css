@@ -1,0 +1,155 @@
+body{
+	background-image: url('images/1.png');
+	text-align: center;
+}
+
+.a{
+	color:black;
+}
+.language{
+	margin-top: 30px;
+	margin-left: 1350px;
+	font-size: 30px;
+	border-radius: 20px;
+	height:40px;
+	width:60px;
+	background-color: white;
+	padding-left: 30px;
+	color: black;
+}
+
+.asd {
+	color: black;
+}
+
+.window1 {
+	background-color: white;
+	border-radius: 10px;
+	font-family: fantasy;
+	margin-left: 620px;
+	height:55;
+	width: 300px;
+	color:grey;
+    border:2px outset black;
+    padding:2px;
+    margin-top: 250px;
+    padding-bottom: 10px;
+}
+.window1:hover{
+	top: -100px;
+	background-color: white;
+	border-radius: 10px;
+	font-size:0px;
+	margin-left: 620px;
+	height:55;
+	width: 300px;
+	color:grey;
+    border:2px outset black;
+    padding:2px;
+    margin-top: 250px;
+    padding-bottom: 10px;
+}
+
+
+#apearText{
+background-color: white;
+	border-radius: 10px;
+	margin-top: 3px;
+	font-family: fantasy;
+	font-size: 30pt;;
+	height:55;
+	width: 300px;
+	color:grey;
+    border:2px outset black;
+    padding:2px;
+    padding-bottom: 10px;
+}
+
+.window2{
+	font-family: fantasy;
+	background-color: white;
+	border-radius: 10px;
+	margin-left: 620px;
+	height:55;
+	width: 300px;
+	color:grey;
+    border:2px outset black;
+    padding:2px;
+    padding-bottom: 10px;
+
+}
+.window2:hover{
+	font-size: 0px;
+	background-color: white;
+	border-radius: 10px;
+	margin-left: 620px;
+	height:55;
+	width: 300px;
+	color:grey;
+    border:2px outset black;
+    padding:2px;
+    padding-bottom: 10px;
+
+}
+
+#apearText1{
+font-family: fantasy;
+	background-color: white;
+	border-radius: 10px;
+	margin-top: 10px;
+	height:55;
+	width: 300px;
+	color:grey;
+    border:2px outset black;
+    padding:2px;
+    padding-bottom: 10px;
+}
+
+
+.window3{
+	margin-top: 30px;
+	font-size: 20px;
+	font-family: fantasy;
+	background-color: white;
+	margin-left: 722px;
+	height:20px;
+	width: 100px;
+	color:grey;
+    border:2px outset black;
+    padding-bottom: 10px;
+
+}
+.window4{
+	background-color: white;
+	border-radius: 10px;
+	font-family: fantasy;
+	margin-left: 620px;
+	height:55;
+	width: 300px;
+	color:grey;
+    border:2px outset black;
+    padding:2px;
+    padding-bottom: 10px;
+}
+
+#apearText2{
+background-color: white;
+	border-radius: 10px;
+	font-family: fantasy;
+	margin-top: 18px;
+	height:55;
+	width: 300px;
+	color:grey;
+    border:2px outset black;
+    padding:2px;
+    padding-bottom: 10px;
+}
+
+
+input[type="text"] {
+	font-family:Arial;
+font-size: 40px;
+height: 46px;
+width: 500px;
+margin-top: 30px;
+}
